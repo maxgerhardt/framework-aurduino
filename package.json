@@ -1,0 +1,14 @@
+{
+  "name": "framework-aurduino",
+  "version": "1.0.0",
+  "description": "Arduino Framework for Infineon Aurix TC275/TC375 mcu, credits: http://aurduino.boards.net/  https://www.hitex.com/microcontroller-support/aurix/shieldbuddy-tc375",
+  "keywords": [
+    "framework",
+    "arduino"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juanjqh/framework-aurduino.git"
+  }
+}
