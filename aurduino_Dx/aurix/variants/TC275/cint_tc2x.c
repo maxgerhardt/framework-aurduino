@@ -38,9 +38,9 @@
 #  include "tc27xb/IfxCpu_bf.h"
 #  include "tc27xb/IfxSrc_reg.h"
 # elif defined(APPKIT_TC275TU_C) || defined(TRIBOARD_TC275C)
-#  include "tc27xc/IfxCpu_reg.h"
-#  include "tc27xc/IfxCpu_bf.h"
-#  include "tc27xc/IfxSrc_reg.h"
+#  include "IfxCpu_reg.h"
+#  include "IfxCpu_bf.h"
+#  include "IfxSrc_reg.h"
 # else
 #  include "tc27xa/IfxCpu_reg.h"
 #  include "tc27xa/IfxCpu_bf.h"

@@ -32,7 +32,7 @@ extern "C" {
 # ifdef TRIBOARD_TC275B
 #  include "tc27xb/IfxScu_reg.h"
 # elif defined(APPKIT_TC275TU_C) || defined(TRIBOARD_TC275C)
-#  include "tc27xc/IfxScu_reg.h"
+#  include "IfxScu_reg.h"
 # else
 #  include "tc27xa/IfxScu_reg.h"
 # endif /* TRIBOARD_TC275B */
