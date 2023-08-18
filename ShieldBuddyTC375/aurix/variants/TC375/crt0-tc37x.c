@@ -21,9 +21,9 @@
 
 #include "tc_inc_path.h"
 
-#include TC_INCLUDE(TCPATH/IfxScu_reg.h)
-#include TC_INCLUDE(TCPATH/IfxCpu_reg.h)
-#include TC_INCLUDE(TCPATH/IfxCpu_bf.h)
+#include TC_INCLUDE(IfxScu_reg.h)
+#include TC_INCLUDE(IfxCpu_reg.h)
+#include TC_INCLUDE(IfxCpu_bf.h)
 
 #include "core.h"
 

@@ -17,20 +17,20 @@
 
 #include "tc_inc_path.h"
 
-#include TC_INCLUDE(TCPATH/IfxScu_reg.h)
-#include TC_INCLUDE(TCPATH/IfxScu_bf.h)
-#include TC_INCLUDE(TCPATH/IfxCpu_reg.h)
-#include TC_INCLUDE(TCPATH/IfxCpu_bf.h)
-#include TC_INCLUDE(TCPATH/IfxStm_reg.h)
-#include TC_INCLUDE(TCPATH/IfxStm_bf.h)
-#include TC_INCLUDE(TCPATH/IfxDmu_reg.h)
+#include TC_INCLUDE(IfxScu_reg.h)
+#include TC_INCLUDE(IfxScu_bf.h)
+#include TC_INCLUDE(IfxCpu_reg.h)
+#include TC_INCLUDE(IfxCpu_bf.h)
+#include TC_INCLUDE(IfxStm_reg.h)
+#include TC_INCLUDE(IfxStm_bf.h)
+#include TC_INCLUDE(IfxDmu_reg.h)
 
 /* Workaround for TLF35584 on TriBoard-TC3x9 */
 #define USE_DISABLE_EXT_WDT		(1)
 
 #if (USE_DISABLE_EXT_WDT == 1)
-# include TC_INCLUDE(TCPATH/IfxPort_reg.h)
-# include TC_INCLUDE(TCPATH/IfxQspi_reg.h)
+# include TC_INCLUDE(IfxPort_reg.h)
+# include TC_INCLUDE(IfxQspi_reg.h)
 #endif /* USE_DISABLE_EXT_WDT */
 
 #define MAX_CORES		3

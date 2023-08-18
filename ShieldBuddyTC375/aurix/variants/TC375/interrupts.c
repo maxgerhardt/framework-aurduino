@@ -10,9 +10,9 @@
 
 #include "tc_inc_path.h"
 
-#include TC_INCLUDE(TCPATH/IfxCpu_reg.h)
-#include TC_INCLUDE(TCPATH/IfxCpu_bf.h)
-#include TC_INCLUDE(TCPATH/IfxSrc_reg.h)
+#include TC_INCLUDE(IfxCpu_reg.h)
+#include TC_INCLUDE(IfxCpu_bf.h)
+#include TC_INCLUDE(IfxSrc_reg.h)
 
 #include "cint.h"
 #include "interrupts.h"

@@ -14,7 +14,7 @@ extern "C" {
 
 #include "tc_inc_path.h"
 
-#include TC_INCLUDE(TCPATH/IfxScu_reg.h)
+#include TC_INCLUDE(IfxScu_reg.h)
 
 /*
  * Structures of the copy/clear tables

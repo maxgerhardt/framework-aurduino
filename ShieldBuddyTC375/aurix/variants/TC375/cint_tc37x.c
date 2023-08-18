@@ -11,8 +11,8 @@
 
 #include "tc_inc_path.h"
 
-#include TC_INCLUDE(TCPATH/IfxCpu_reg.h)
-#include TC_INCLUDE(TCPATH/IfxCpu_bf.h)
+#include TC_INCLUDE(IfxCpu_reg.h)
+#include TC_INCLUDE(IfxCpu_bf.h)
 
 /* short form for marking data as not small addressable */
 #ifndef _FARDATA
